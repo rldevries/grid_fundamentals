@@ -1,6 +1,6 @@
-Work In Progress
+# Work In Progress
 
-![Simple Grid Layout](https://github.com/rldevries/upload_images/grid.png?raw=true)
+![Simple Grid Layout](https://github.com/rldevries/upload_images/grid.png)
 
 # To use:
 # : open animate_transform.html (all code inside is provided for the CSS Style)
