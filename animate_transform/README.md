@@ -2,7 +2,7 @@
 
 
 
-![Simple Grid Layout](https://github.com/rldevries/upload_images/grid.png)
+![Simple Grid Layout](https://github.com/rldevries/upload_images/blob/main/grid.png)
 
 
 
