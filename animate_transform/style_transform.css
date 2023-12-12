@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.load {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    background: darkgreen;
+    font-weight: bolder;
+    color: whitesmoke;
+    border-radius: 50%;
+    margin: 2px;
+    animation: animate 3s infinite alternate;
+}
+/* || ON X-AXIS || */
+/* || TO ROTATE Y-AXIS - CHANGE VALUE to rotateY|| */
+/* || TO ROTATE z-AXIS - CHANGE VALUE to rotateZ|| */
+
+@keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(360deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+.load:nth-child(1) {
+    animation-delay: .2s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(2) {
+    animation-delay: .4s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(3) {
+    animation-delay: .6s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(4) {
+    animation-delay: .8s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(5) {
+    animation-delay: 1.0s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(6) {
+    animation-delay: 1.2s;
+    animation-iteration-count: 2;
+}
+.load:nth-child(7) {
+    animation-delay: 1.4s;
+    animation-iteration-count: 2;
+}
+
+
+
